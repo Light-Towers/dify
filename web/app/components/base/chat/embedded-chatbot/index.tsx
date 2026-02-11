@@ -74,7 +74,7 @@ const Chatbot = () => {
         </div>
       </div>
       {/* powered by */}
-      {isMobile && (
+      {/* {isMobile && (
         <div className="flex h-[60px] shrink-0 items-center pl-2">
           {!appData?.custom_config?.remove_webapp_brand && (
             <div className={cn(
@@ -92,7 +92,7 @@ const Chatbot = () => {
             </div>
           )}
         </div>
-      )}
+      )} */}
     </div>
   )
 }
